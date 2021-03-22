@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Header from '../components/Header';
+
 const App = () => {
   return (
     <>
-      <h1>Loopstudios Landing Page</h1>
+      <Header />
     </>
   );
 };

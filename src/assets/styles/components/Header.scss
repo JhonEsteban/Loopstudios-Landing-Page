@@ -1,0 +1,43 @@
+@import '../variables.scss';
+
+.header {
+  height: 100vh;
+
+  &.hero-image {
+    background-image: url(../../images/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  &__container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 150px;
+  }
+
+  &__icon {
+    cursor: pointer;
+  }
+
+  .main-card {
+    max-width: 335px;
+    margin-top: 180px;
+    padding: 20px;
+    border: 3px solid $White;
+
+    &__title {
+      margin: 0;
+      font-size: 4.2rem;
+      font-weight: normal;
+      line-height: 40px;
+      color: $White;
+      text-transform: uppercase;
+    }
+  }
+}
