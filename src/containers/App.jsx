@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import MainContent from './MainContent';
 import VirtualReality from '../components/VirtualReality';
 import OurCreations from './OurCreations';
+import Footer from './Footer';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <VirtualReality />
         <OurCreations />
       </MainContent>
+      <Footer />
     </>
   );
 };
