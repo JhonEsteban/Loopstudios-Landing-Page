@@ -1,0 +1,35 @@
+@import '../../styles/variables.scss';
+
+.our-creations {
+  display: grid;
+  text-align: center;
+  margin-top: 50px;
+
+  &__title {
+    margin-bottom: 50px;
+    font-size: 3.5rem;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__btn {
+    padding: 8px 45px;
+    margin: 5px auto;
+    font-family: 'Alata', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border: none;
+    background-color: $White;
+    border: 1px solid $Black;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}

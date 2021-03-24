@@ -1,0 +1,29 @@
+@import '../variables.scss';
+
+.creations-item {
+  margin: 0 auto 20px;
+  cursor: pointer;
+  text-align: left;
+  position: relative;
+
+  img {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__text {
+    position: absolute;
+    margin: 0;
+    font-size: 3rem;
+    color: $White;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 3px $Black;
+    top: 40%;
+    left: 20px;
+    z-index: 10;
+
+    span {
+      display: block;
+    }
+  }
+}
