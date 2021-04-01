@@ -8,10 +8,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+
+    @media screen and (min-width: 720px) {
+      background-image: url(https://i.imgur.com/r3QKDHp.jpg);
+      background-position: top;
+    }
   }
 
   &__container {
-    padding-top: 20px;
+    padding-top: 50px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -57,6 +62,7 @@
           @media screen and (min-width: 720px) {
             margin: 0;
             margin-right: 20px;
+            font-weight: bold;
 
             &:last-child {
               margin-right: 0;
@@ -83,6 +89,10 @@
 
   &__logo {
     width: 150px;
+
+    @media screen and (min-width: 720px) {
+      width: 220px;
+    }
   }
 
   &__icon {
@@ -99,6 +109,12 @@
     padding: 20px;
     border: 3px solid $White;
 
+    @media screen and (min-width: 720px) {
+      max-width: 660px;
+      margin-top: 125px;
+      padding: 33px;
+    }
+
     &__title {
       margin: 0;
       font-size: 4.2rem;
@@ -106,6 +122,11 @@
       line-height: 40px;
       color: $White;
       text-transform: uppercase;
+
+      @media screen and (min-width: 720px) {
+        font-size: 6.5rem;
+        line-height: 65px;
+      }
     }
   }
 }

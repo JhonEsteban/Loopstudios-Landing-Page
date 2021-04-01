@@ -6,6 +6,7 @@ import hamburgerIcon from '../assets/images/icon-hamburger.svg';
 import closeIcon from '../assets/images/icon-close.svg';
 
 import '../assets/styles/components/Header.scss';
+
 import Navigation from './Navigation';
 
 const Header = () => {
