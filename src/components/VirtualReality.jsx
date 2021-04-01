@@ -13,7 +13,9 @@ const VirtualReality = () => (
     </figure>
 
     <div className='card-container'>
-      <h2 className='card-container__title'>The leader in interactive vr</h2>
+      <h2 className='card-container__title'>
+        The leader in <span>interactive vr</span>
+      </h2>
       <p className='card-container__paragraph'>
         Founded in 2011, Loopstudios has been producing world-class virtual
         reality projects for some of the best companies around the globe. Ourn

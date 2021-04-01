@@ -23,6 +23,10 @@ img {
   padding-left: 20px;
   padding-right: 20px;
 
+  @media screen and (min-width: 620px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   @media screen and (min-width: 1200px) {
     width: 85%;
     margin: auto;
