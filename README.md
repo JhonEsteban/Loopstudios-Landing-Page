@@ -4,7 +4,7 @@ Layout challenge number six with Frontend Mentor platform, I will code the Loop 
 
 ## Desktop design
 
-![](./src/assets/images/desktop-preview.jpg)
+![](https://i.imgur.com/s2EmV7m.jpg)
 
 ### Do you want to try a layout challenge?
 
