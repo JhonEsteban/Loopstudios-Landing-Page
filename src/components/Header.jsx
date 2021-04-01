@@ -6,6 +6,7 @@ import hamburgerIcon from '../assets/images/icon-hamburger.svg';
 import closeIcon from '../assets/images/icon-close.svg';
 
 import '../assets/styles/components/Header.scss';
+import Navigation from './Navigation';
 
 const Header = () => {
   const { navigation, toggleOpenNavigation, closeNavigation } = useNavegation();
@@ -22,37 +23,12 @@ const Header = () => {
             alt='hamburger icon'
             className='header__icon'
           />
+
           <nav
-            className={`nav ${navigation ? 'active' : ''}`}
             onClick={closeNavigation}
+            className={`nav ${navigation ? 'active' : ''}`}
           >
-            <ul className='menu'>
-              <li className='menu__item'>
-                <a href='/' className='menu__link'>
-                  About
-                </a>
-              </li>
-              <li className='menu__item'>
-                <a href='/' className='menu__link'>
-                  Careers
-                </a>
-              </li>
-              <li className='menu__item'>
-                <a href='/' className='menu__link'>
-                  Event
-                </a>
-              </li>
-              <li className='menu__item'>
-                <a href='/' className='menu__link'>
-                  Products
-                </a>
-              </li>
-              <li className='menu__item'>
-                <a href='/' className='menu__link'>
-                  Support
-                </a>
-              </li>
-            </ul>
+            <Navigation />
           </nav>
         </section>
 
