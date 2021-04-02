@@ -5,21 +5,52 @@
   padding: 20px 0;
   background-color: $Black;
 
+  @media screen and (min-width: 920px) {
+    padding: 70px 0;
+  }
+
+  .wrapper {
+    @media screen and (min-width: 920px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
   &__menu {
     margin-bottom: 60px;
     text-align: center;
 
+    @media screen and (min-width: 920px) {
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
     .logo {
       width: 150px;
       margin: 40px auto 0;
+
+      @media screen and (min-width: 920px) {
+        margin: 0;
+      }
     }
 
     .nav {
       .menu {
         padding-left: 0;
 
+        @media screen and (min-width: 920px) {
+          display: flex;
+        }
+
         &__item {
           margin: 30px;
+
+          @media screen and (min-width: 920px) {
+            margin: 0;
+            margin-right: 15px;
+          }
         }
 
         &__link {
@@ -28,6 +59,10 @@
           letter-spacing: 0.8px;
           text-decoration: none;
           color: $White;
+
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
     }
@@ -36,12 +71,20 @@
   .about-us {
     margin: 30px;
 
+    @media screen and (min-width: 920px) {
+      margin: 0;
+    }
+
     .social-media {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       margin-bottom: 20px;
+
+      @media screen and (min-width: 920px) {
+        justify-content: flex-end;
+      }
 
       .icon {
         margin-right: 15px;

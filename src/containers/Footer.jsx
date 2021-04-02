@@ -7,8 +7,8 @@ import '../assets/styles/containers/Footer.scss';
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="wrapper">
+    <footer className='footer'>
+      <div className='wrapper'>
         <FooterMenu />
         <AboutUs />
       </div>
