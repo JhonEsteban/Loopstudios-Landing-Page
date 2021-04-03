@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Loopstudios-Landing-Page/static/css/main.77c15ce6.chunk.css",
+    "main.js": "/Loopstudios-Landing-Page/static/js/main.c0505a32.chunk.js",
+    "main.js.map": "/Loopstudios-Landing-Page/static/js/main.c0505a32.chunk.js.map",
+    "runtime-main.js": "/Loopstudios-Landing-Page/static/js/runtime-main.50117036.js",
+    "runtime-main.js.map": "/Loopstudios-Landing-Page/static/js/runtime-main.50117036.js.map",
+    "static/js/2.22f96c54.chunk.js": "/Loopstudios-Landing-Page/static/js/2.22f96c54.chunk.js",
+    "static/js/2.22f96c54.chunk.js.map": "/Loopstudios-Landing-Page/static/js/2.22f96c54.chunk.js.map",
+    "index.html": "/Loopstudios-Landing-Page/index.html",
+    "static/css/main.77c15ce6.chunk.css.map": "/Loopstudios-Landing-Page/static/css/main.77c15ce6.chunk.css.map",
+    "static/js/2.22f96c54.chunk.js.LICENSE.txt": "/Loopstudios-Landing-Page/static/js/2.22f96c54.chunk.js.LICENSE.txt",
+    "static/media/icon-close.bbbbb006.svg": "/Loopstudios-Landing-Page/static/media/icon-close.bbbbb006.svg",
+    "static/media/icon-facebook.e9773e52.svg": "/Loopstudios-Landing-Page/static/media/icon-facebook.e9773e52.svg",
+    "static/media/icon-hamburger.5153cb80.svg": "/Loopstudios-Landing-Page/static/media/icon-hamburger.5153cb80.svg",
+    "static/media/icon-instagram.8d0df555.svg": "/Loopstudios-Landing-Page/static/media/icon-instagram.8d0df555.svg",
+    "static/media/icon-pinterest.61a35844.svg": "/Loopstudios-Landing-Page/static/media/icon-pinterest.61a35844.svg",
+    "static/media/icon-twitter.5dc7711f.svg": "/Loopstudios-Landing-Page/static/media/icon-twitter.5dc7711f.svg",
+    "static/media/logo.5b4e652a.svg": "/Loopstudios-Landing-Page/static/media/logo.5b4e652a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50117036.js",
+    "static/js/2.22f96c54.chunk.js",
+    "static/css/main.77c15ce6.chunk.css",
+    "static/js/main.c0505a32.chunk.js"
+  ]
+}
